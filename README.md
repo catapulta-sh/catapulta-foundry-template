@@ -21,7 +21,7 @@ cd catapulta-forge-template
 ```
 2. Generate a new private key
 ```
-catapulta wallet
+npx catapulta wallet
 
 # Output:
 # Wallet address: 0x6B193d5604e09f1737E33cFc4B06fb3f2C7fC3CE
@@ -30,7 +30,7 @@ catapulta wallet
 3. Get funds for your Ethereum address with the [Alchemy Sepolia faucet](https://sepoliafaucet.com/) 
 4. Deploy the basic contract into Sepolia testnet with Catapulta
 ```
-catapulta script --deployment-path scripts/DeployBasic.sol --chain 11155111
+npx catapulta script --deployment-path scripts/DeployBasic.sol --chain 11155111
 ```
 
 ## Development
