@@ -46,7 +46,7 @@ npx catapulta script --deployment-path scripts/DeployBasic.sol --chain 11155111
 
 7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
 
-![Uploading basic 2.png…]()
+![basic 2](https://github.com/catapulta-sh/catapulta-forge-template/assets/11179847/9b2c830b-ab4e-4da6-b3c0-e515639cc47b)
 
 
 ## Development
