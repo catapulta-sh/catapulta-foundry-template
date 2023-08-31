@@ -46,6 +46,9 @@ npx catapulta script --deployment-path scripts/DeployBasic.sol --chain 11155111
 
 7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
 
+![Uploading basic 2.png…]()
+
+
 ## Development
 
 This project uses [Foundry](https://getfoundry.sh) and [Catapulta](https://catapulta.sh/docs). See the [book](https://book.getfoundry.sh/getting-started/installation.html) for instructions on how to install and use Foundry.
