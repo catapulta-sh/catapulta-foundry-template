@@ -20,7 +20,13 @@ git clone https://github.com/catapulta-sh/catapulta-forge-template
 cd catapulta-forge-template
 ```
 
-2. Generate a new private key
+2. Install forge dependencies, forge-std
+
+```
+forge install
+```
+
+3. Generate a new private key with Catapulta, is stored offline in your .env
 
 ```
 npx catapulta wallet
@@ -30,15 +36,15 @@ npx catapulta wallet
 # Private key appended to your .env file.
 ```
 
-3. Get funds for your Ethereum address with the [Alchemy Sepolia faucet](https://sepoliafaucet.com/)
-4. Get your `CATAPULTA_API_KEY` into your .env from your project at [Catapulta dashboard](https://catapulta.sh)
-5. Deploy the basic contract into Sepolia testnet with Catapulta
+4. Get funds for your Ethereum address at the [Alchemy Sepolia faucet](https://sepoliafaucet.com/)
+5. Get your `CATAPULTA_API_KEY` into your .env from, generate one at [Catapulta dashboard](https://catapulta.sh)
+6. Deploy the basic contract into Sepolia testnet with Catapulta
 
 ```
 npx catapulta script --deployment-path scripts/DeployBasic.sol --chain 11155111
 ```
 
-6. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
+7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
 
 ## Development
 
