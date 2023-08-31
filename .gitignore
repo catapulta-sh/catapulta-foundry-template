@@ -1,4 +1,6 @@
 cache/
 out/
 .env
+broadcast/
+.gas-snapshot
 compressedArtifacts.zip
