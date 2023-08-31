@@ -1,4 +1,4 @@
-# <h1 align="center"> Catapulta Forge Template </h1>
+# <h1 align="center"> Catapulta.sh Forge Template </h1>
 
 **Template repository for getting started quickly with [Catapulta.sh](https://catapulta.sh/docs) Chain Ops Suite at Foundry projects **. You don't need to setup RPC URLs or Etherscan API keys, `catapulta` takes care of all configuration.
 
