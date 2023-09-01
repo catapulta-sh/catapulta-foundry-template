@@ -14,7 +14,7 @@ contract Basic {
     }
 
     function test() external pure returns (string memory) {
-        return "THIS IS A TEST!";
+        return "THIS IS A TEST!!";
     }
 
     function sum(uint256 a, uint256 b) external pure returns (uint256) {
