@@ -6,6 +6,7 @@ Requirements
 
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 - [Node.js 18v](https://gist.github.com/d2s/372b5943bce17b964a79)
+- [Foundry](https://book.getfoundry.sh/)
 
 ## Getting Started
 
