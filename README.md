@@ -42,7 +42,7 @@ npx catapulta wallet
 6. Deploy the basic contract into Sepolia testnet with Catapulta
 
 ```
-npx catapulta script --deployment-path scripts/DeployBasic.sol --chain 11155111
+npx catapulta script scripts/DeployBasic.sol --chain 11155111
 ```
 
 7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
