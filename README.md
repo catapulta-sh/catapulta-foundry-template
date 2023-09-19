@@ -38,7 +38,7 @@ npx catapulta wallet
 ```
 
 4. Get funds for your Ethereum address at the [Alchemy Sepolia faucet](https://sepoliafaucet.com/)
-5. Get your `CATAPULTA_API_KEY` into your .env from, generate one at [Catapulta dashboard](https://catapulta.sh)
+5. Setup your `CATAPULTA_API_KEY` into your .env, generate one at [Catapulta dashboard](https://catapulta.sh)
 6. Deploy the basic contract into Sepolia testnet with Catapulta
 
 ```
