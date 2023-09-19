@@ -6,6 +6,7 @@ Requirements
 
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 - [Node.js 18v](https://gist.github.com/d2s/372b5943bce17b964a79)
+- [Foundry](https://book.getfoundry.sh/)
 
 ## Getting Started
 
@@ -26,7 +27,7 @@ cd catapulta-forge-template
 forge install
 ```
 
-3. Generate a new private key with Catapulta, is stored offline in your .env
+3. Generate a new private key with Catapulta, is stored offline in your .env, or add your own as `PRIVATE_KEY` in the .env file stored at the root of the project
 
 ```
 npx catapulta wallet
@@ -37,14 +38,17 @@ npx catapulta wallet
 ```
 
 4. Get funds for your Ethereum address at the [Alchemy Sepolia faucet](https://sepoliafaucet.com/)
-5. Get your `CATAPULTA_API_KEY` into your .env from, generate one at [Catapulta dashboard](https://catapulta.sh)
+5. Setup your `CATAPULTA_API_KEY` into your .env, generate one at [Catapulta dashboard](https://catapulta.sh)
 6. Deploy the basic contract into Sepolia testnet with Catapulta
 
 ```
-npx catapulta script --deployment-path scripts/DeployBasic.sol --chain 11155111
+npx catapulta script scripts/DeployBasic.sol --network sepolia
 ```
 
 7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
+
+![basic 2](https://github.com/catapulta-sh/catapulta-forge-template/assets/11179847/9b2c830b-ab4e-4da6-b3c0-e515639cc47b)
+
 
 ## Development
 
