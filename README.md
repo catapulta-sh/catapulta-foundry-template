@@ -44,6 +44,52 @@ npx catapulta wallet
 ```
 npx catapulta script scripts/DeployBasic.sol --network sepolia
 ```
+```
+# Output:
+Catapulta.sh 🏏 Forge script deployment (0.1.36)
+================================================
+Project name: Ghost Deployments
+Project URL: https://catapulta.sh/project/6116272a59b37a3a4a7afb55
+Deployment UUID: 592a91ad-57c8-42c6-b37e-2af0e170f31a
+
+📀 Building artifacts...
+
+🗜  Compressing artifacts...
+
+📤 Uploading artifacts to the Catapulta DB...
+
+✅ Artifacts uploaded successfully.
+
+📡 Broadcasting deployments to Catapulta Gateway RPC: 
+
+📜 Running Foundry script: forge script scripts/DeployBasic.sol  --rpc-url "https://catapulta.sh/api/run/add/chain/11155111/5922a91ad2-57c8242c6-b37e-2af0e170f31a/gNd4vq8AqnRWhxwPJiMS" --broadcast --chain-id 11155111 
+ 
+.
+Compiling 2 files with 0.8.19
+
+Solc 0.8.19 finished in 623.73ms
+
+Compiler run successful!
+
+[...]
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+
+Total Paid: 0.000852774003979612 ETH (284258 gas * avg 3.000000014 gwei)
+
+
+✅ Deployment successfully broadcasted 
+
+- Etherscan verification request sent. Check the dashboard for keeping track of verifications. If contracts are not verified in 10 minutes, contact support at Discord.
+
+💾 Artifacts stored at:
+- https://users-artifacts.s3.eu-west-1.amazonaws.com/595a911d-57c8-42c6-b37e-2af0e170f31a-deployment-artifacts/artifacts.zip
+
+📸 Check your deployment report at:
+ - https://catapulta.sh/project/6416272a59b37a3a4a7afb55/op/595a91ad-57c8-42c6-b37e-2af0e170f31a
+```
 
 7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
 
