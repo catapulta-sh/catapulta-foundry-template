@@ -1,4 +1,4 @@
-# <h1 align="center"> Catapulta.sh Forge Template </h1>
+# <h1 align="center"> Catapulta.sh Foundry Template </h1>
 
 Template repository for getting started quickly with [Catapulta.sh](https://catapulta.sh/docs) Chain Ops Suite for Foundry projects.
 
