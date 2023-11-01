@@ -94,7 +94,7 @@ Total Paid: 0.000852774003979612 ETH (284258 gas * avg 3.000000014 gwei)
 
 7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
 
-![basic 2](https://github.com/catapulta-sh/catapulta-forge-template/assets/11179847/9b2c830b-ab4e-4da6-b3c0-e515639cc47b)
+![Report Latest](https://github.com/catapulta-sh/catapulta-foundry-template/assets/11179847/b34f165c-1846-4ae7-b0cb-c6493460a558)
 
 ## Development
 
