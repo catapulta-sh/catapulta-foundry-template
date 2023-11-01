@@ -27,7 +27,7 @@ cd catapulta-forge-template
 forge install
 ```
 
-3. [Optional] Generate a new private key with Catapulta, is stored offline in your .env, or add your own as `PRIVATE_KEY` in the .env file stored at the root of the project
+3. **Optional** Generate a new private key with Catapulta, is stored offline in your .env, or add your own as `PRIVATE_KEY` in the .env file stored at the root of the project
 
 ```
 npx catapulta wallet
