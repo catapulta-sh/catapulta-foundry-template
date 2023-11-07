@@ -1,4 +1,4 @@
-# <h1 align="center"> Catapulta.sh Forge Template </h1>
+# <h1 align="center"> Catapulta.sh Foundry Template </h1>
 
 Template repository for getting started quickly with [Catapulta.sh](https://catapulta.sh/docs) Chain Ops Suite for Foundry projects.
 
@@ -38,12 +38,13 @@ npx catapulta wallet
 ```
 
 4. Get funds for your Ethereum address at the [Alchemy Sepolia faucet](https://sepoliafaucet.com/)
-5. Setup your `CATAPULTA_API_KEY` into your .env, generate one at [Catapulta dashboard](https://catapulta.sh)
+5. Setup your `CATAPULTA_API_KEY` into your .env, generate one free key at [Catapulta](https://catapulta.sh/auth)
 6. Deploy the basic contract into Sepolia testnet with Catapulta
 
 ```
 npx catapulta script scripts/DeployBasic.sol --network sepolia
 ```
+
 ```
 # Output:
 Catapulta.sh 🏏 Forge script deployment (0.1.36)
@@ -60,10 +61,10 @@ Deployment UUID: 592a91ad-57c8-42c6-b37e-2af0e170f31a
 
 ✅ Artifacts uploaded successfully.
 
-📡 Broadcasting deployments to Catapulta Gateway RPC: 
+📡 Broadcasting deployments to Catapulta Gateway RPC:
 
-📜 Running Foundry script: forge script scripts/DeployBasic.sol  --rpc-url "https://catapulta.sh/api/run/add/chain/11155111/5922a91ad2-57c8242c6-b37e-2af0e170f31a/gNd4vq8AqnRWhxwPJiMS" --broadcast --chain-id 11155111 
- 
+📜 Running Foundry script: forge script scripts/DeployBasic.sol  --rpc-url "https://catapulta.sh/api/run/add/chain/11155111/5922a91ad2-57c8242c6-b37e-2af0e170f31a/gNd4vq8AqnRWhxwPJiMS" --broadcast --chain-id 11155111
+
 .
 Compiling 2 files with 0.8.19
 
@@ -80,7 +81,7 @@ ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
 Total Paid: 0.000852774003979612 ETH (284258 gas * avg 3.000000014 gwei)
 
 
-✅ Deployment successfully broadcasted 
+✅ Deployment successfully broadcasted
 
 - Etherscan verification request sent. Check the dashboard for keeping track of verifications. If contracts are not verified in 10 minutes, contact support at Discord.
 
@@ -93,8 +94,7 @@ Total Paid: 0.000852774003979612 ETH (284258 gas * avg 3.000000014 gwei)
 
 7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
 
-![basic 2](https://github.com/catapulta-sh/catapulta-forge-template/assets/11179847/9b2c830b-ab4e-4da6-b3c0-e515639cc47b)
-
+![Report Latest](https://github.com/catapulta-sh/catapulta-foundry-template/assets/11179847/b34f165c-1846-4ae7-b0cb-c6493460a558)
 
 ## Development
 
