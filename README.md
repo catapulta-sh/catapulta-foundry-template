@@ -10,18 +10,18 @@ Requirements
 
 ## Getting Started
 
-Click "Use this template" on [GitHub](https://github.com/catapulta-sh/catapulta-forge-template) to create a new repository with this repo as the initial state.
+Click "Use this template" on [GitHub](https://github.com/catapulta-sh/catapulta-foundry-template) to create a new repository with this repo as the initial state.
 
 ## Deploy your first contract with Catapulta
 
 1. Git clone this repository and enter to the repository directory:
 
 ```
-git clone https://github.com/catapulta-sh/catapulta-forge-template
-cd catapulta-forge-template
+git clone https://github.com/catapulta-sh/catapulta-foundry-template
+cd catapulta-foundry-template
 ```
 
-2. Install forge dependencies, forge-std
+2. Install forge dependencies
 
 ```
 forge install
