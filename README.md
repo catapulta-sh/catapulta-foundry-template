@@ -42,7 +42,7 @@ npx catapulta wallet
 6. Deploy the basic contract into Sepolia testnet with Catapulta
 
 ```
-npx catapulta script scripts/DeployBasic.sol --network sepolia
+npx catapulta script scripts/Deploy.sol --network sepolia
 ```
 
 ```
