@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Trebuchet {
     uint256 internal _damage;
+    uint256 constant b = 7;
 
     constructor(uint256 damage) {
         _damage = damage;

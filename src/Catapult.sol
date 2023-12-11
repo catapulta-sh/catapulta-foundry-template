@@ -3,6 +3,7 @@ pragma solidity ^0.8.0;
 
 contract Catapult {
     uint256 internal _damage;
+    uint256 constant b = 9;
 
     constructor(uint256 damage) {
         _damage = damage;
