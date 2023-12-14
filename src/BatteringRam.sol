@@ -4,7 +4,7 @@ import {Champion} from "./Champion.sol";
 
 contract BatteringRam {
     uint256 internal _damage;
-    uint256 constant b = 6;
+    uint256 constant b = 7;
 
     constructor(uint256 damage) {
         _damage = damage;
