@@ -45,7 +45,7 @@ npx catapulta script scripts/Deploy.s.sol --network sepolia --sponsor
 
 ```
 # Output:
-Catapulta.sh 🏏 Forge script deployment (0.1.36)
+Catapulta.sh 🏏 Forge script deployment (0.4.1)
 ================================================
 Project name: Ghost Deployments
 Project URL: https://catapulta.sh/project/6116272a59b37a3a4a7afb55
