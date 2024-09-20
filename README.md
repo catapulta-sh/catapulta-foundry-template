@@ -40,7 +40,7 @@ npx catapulta wallet
 5. Deploy the basic contract into Sepolia testnet with Catapulta, using `--sponsor` flag to request gas. This skips the need of faucets.
 
 ```
-npx catapulta script script/Deploy.s.sol --network base-sepolia --sponsor
+npx catapulta script script/Deploy.s.sol --network baseSepolia --sponsor
 ```
 
 ```
