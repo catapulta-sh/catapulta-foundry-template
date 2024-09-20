@@ -5,7 +5,7 @@ Template repository for getting started quickly with [Catapulta.sh](https://cata
 Requirements
 
 - [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
-- [Node.js 18v](https://gist.github.com/d2s/372b5943bce17b964a79)
+- [Node.js](https://gist.github.com/d2s/372b5943bce17b964a79)
 - [Foundry](https://book.getfoundry.sh/)
 
 ## Getting Started
@@ -40,7 +40,7 @@ npx catapulta wallet
 5. Deploy the basic contract into Sepolia testnet with Catapulta, using `--sponsor` flag to request gas. This skips the need of faucets.
 
 ```
-npx catapulta script script/Deploy.s.sol --network sepolia --sponsor
+npx catapulta script script/Deploy.s.sol --network base-sepolia --sponsor
 ```
 
 ```
@@ -61,23 +61,9 @@ Deployment UUID: 592a91ad-57c8-42c6-b37e-2af0e170f31a
 
 📡 Broadcasting deployments to Catapulta Gateway RPC:
 
-📜 Running Foundry script: forge script scripts/DeployBasic.sol  --rpc-url "https://catapulta.sh/api/run/add/chain/11155111/5922a91ad2-57c8242c6-b37e-2af0e170f31a/gNd4vq8AqnRWhxwPJiMS" --broadcast --chain-id 11155111
-
-.
-Compiling 2 files with 0.8.19
-
-Solc 0.8.19 finished in 623.73ms
-
-Compiler run successful!
+📜 Running Foundry script: forge script scripts/DeployBasic.sol --broadcast
 
 [...]
-
-==========================
-
-ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
-
-Total Paid: 0.000852774003979612 ETH (284258 gas * avg 3.000000014 gwei)
-
 
 ✅ Deployment successfully broadcasted
 
@@ -90,10 +76,10 @@ Total Paid: 0.000852774003979612 ETH (284258 gas * avg 3.000000014 gwei)
  - https://catapulta.sh/project/6416272a59b37a3a4a7afb55/op/595a91ad-57c8-42c6-b37e-2af0e170f31a
 ```
 
-7. Check the deployment report at the Catapulta UI, and enjoy delegated Etherscan verification without any extra configs or API keys.
+7. Check the deployment report at the Catapulta UI, and enjoy automated Etherscan verification without any extra configs or API keys.
 
 ![Report Latest](https://github.com/catapulta-sh/catapulta-foundry-template/assets/11179847/b34f165c-1846-4ae7-b0cb-c6493460a558)
 
 ## Development
 
-This project uses [Foundry](https://getfoundry.sh) and [Catapulta](https://catapulta.sh/docs). See the [book](https://book.getfoundry.sh/getting-started/installation.html) for instructions on how to install and use Foundry.
+This project uses [Foundry](https://getfoundry.sh) and [Catapulta](https://catapulta.sh/docs).
