@@ -27,7 +27,13 @@ cd catapulta-foundry-template
 forge install
 ```
 
-3. Generate a new private key with Catapulta, is stored offline in your .env, or add your own as `PRIVATE_KEY` in the .env file stored at the root of the project
+3. Install catapulta via `npm`
+
+```
+npm i -g catapulta
+```
+
+4. Generate a new private key with Catapulta, is stored offline in your .env, or add your own as `PRIVATE_KEY` in the .env file stored at the root of the project
 
 ```
 npx catapulta wallet
@@ -36,8 +42,8 @@ npx catapulta wallet
 # Wallet address: 0x6B193d5604e09f1737E33cFc4B06fb3f2C7fC3CE
 # Private key appended to your .env file.
 ```
-4. Setup your `CATAPULTA_API_KEY` into your .env, generate one free key at [Catapulta](https://catapulta.sh/auth)
-5. Deploy the basic contract into Sepolia testnet with Catapulta, using `--sponsor` flag to request gas. This skips the need of faucets.
+5. Setup your `CATAPULTA_API_KEY` into your .env, generate one free key at [Catapulta](https://catapulta.sh/auth)
+6. Deploy the basic contract into Sepolia testnet with Catapulta, using `--sponsor` flag to request gas. This skips the need of faucets.
 
 ```
 npx catapulta script script/Deploy.s.sol --network baseSepolia --sponsor
