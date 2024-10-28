@@ -21,28 +21,28 @@ Install this Foundry template as a Dev Container in your VSCode or Cursor IDE wi
 ## Getting Started - Git
 Click "Use this template" on [GitHub](https://github.com/catapulta-sh/catapulta-foundry-template) to create a new repository with this repo as the initial state.
 
-## Deploy your first contract with Catapulta
-
-1. Git clone this repository and enter to the repository directory:
+You can also git clone this repository and enter to the repository directory:
 
 ```
 git clone https://github.com/catapulta-sh/catapulta-foundry-template
 cd catapulta-foundry-template
 ```
 
-2. Install forge dependencies
+## Deploy your first contract with Catapulta
+
+1. Install forge dependencies
 
 ```
 forge install
 ```
 
-3. Install catapulta via `npm`
+2. Install catapulta via `npm`
 
 ```
 npm i -g catapulta
 ```
 
-4. Generate a new private key with Catapulta, is stored offline in your .env, or add your own as `PRIVATE_KEY` in the .env file stored at the root of the project
+3. Generate a new private key with Catapulta, is stored offline in your .env, or add your own as `PRIVATE_KEY` in the .env file stored at the root of the project
 
 ```
 catapulta wallet
@@ -51,8 +51,8 @@ catapulta wallet
 # Wallet address: 0x6B193d5604e09f1737E33cFc4B06fb3f2C7fC3CE
 # Private key appended to your .env file.
 ```
-5. Setup your `CATAPULTA_API_KEY` into your .env, generate one free key at [Catapulta](https://catapulta.sh/auth)
-6. Deploy the basic contract into Sepolia testnet with Catapulta, using `--sponsor` flag to request gas. This skips the need of faucets.
+4. Setup your `CATAPULTA_API_KEY` into your .env, generate one free key at [Catapulta](https://catapulta.sh/auth)
+5. Deploy the basic contract into Sepolia testnet with Catapulta, using `--sponsor` flag to request gas. This skips the need of faucets.
 
 ```
 catapulta script script/Deploy.s.sol --network baseSepolia --sponsor
