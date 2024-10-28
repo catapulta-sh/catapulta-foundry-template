@@ -96,7 +96,7 @@ Deployment UUID: 592a91ad-57c8-42c6-b37e-2af0e170f31a
 
 7. Check the deployment report at the Catapulta UI, and enjoy automated Etherscan verification without any extra configs or API keys.
 
-![Report Latest](https://github.com/catapulta-sh/catapulta-foundry-template/assets/11179847/b34f165c-1846-4ae7-b0cb-c6493460a558)
+![Report Latest](https://catapulta.sh/img/report.png)
 
 ## Development
 
