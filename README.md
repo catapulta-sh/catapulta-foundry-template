@@ -6,7 +6,7 @@ Template repository for getting started quickly with [Catapulta.sh](https://cata
 
 
 ## Getting Started - Dev Container
-Install this Foundry template as a Dev Container in your VSCode or Cursor IDE with 1-click:
+Install this Catapulta Foundry template as a Dev Container in your Cursor or VSCode IDE with 1-click:
 
 [![Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open%20in%20Cursor&color=black&logo=visualstudiocode)](https://tinyurl.com/25msv9bd)
 
