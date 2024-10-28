@@ -1,6 +1,7 @@
-# <h1 align="center"> Catapulta.sh Foundry Template </h1>
-
+# <h1 align="center"> Catapulta.sh Foundry Template</h1>
 Template repository for getting started quickly with [Catapulta.sh](https://catapulta.sh/docs) Chain Ops Suite for Foundry projects.
+
+
 
 Requirements
 
@@ -8,8 +9,13 @@ Requirements
 - [Node.js](https://gist.github.com/d2s/372b5943bce17b964a79)
 - [Foundry](https://book.getfoundry.sh/)
 
-## Getting Started
+## Getting Started - Dev Container
+Install this Foundry template as a Dev Container in your VSCode or Cursor IDE with 1-click:
 
+[![Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open%20in%20VSCode&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java)
+
+
+## Getting Started - Git
 Click "Use this template" on [GitHub](https://github.com/catapulta-sh/catapulta-foundry-template) to create a new repository with this repo as the initial state.
 
 ## Deploy your first contract with Catapulta
