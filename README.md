@@ -3,11 +3,7 @@ Template repository for getting started quickly with [Catapulta.sh](https://cata
 
 
 
-Requirements
 
-- [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
-- [Node.js](https://gist.github.com/d2s/372b5943bce17b964a79)
-- [Foundry](https://book.getfoundry.sh/)
 
 ## Getting Started - Dev Container
 Install this Foundry template as a Dev Container in your VSCode or Cursor IDE with 1-click:
@@ -19,6 +15,13 @@ Install this Foundry template as a Dev Container in your VSCode or Cursor IDE wi
 
 
 ## Getting Started - Git
+
+Requirements
+
+- [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+- [Node.js](https://gist.github.com/d2s/372b5943bce17b964a79)
+- [Foundry](https://book.getfoundry.sh/)
+
 Click "Use this template" on [GitHub](https://github.com/catapulta-sh/catapulta-foundry-template) to create a new repository with this repo as the initial state.
 
 You can also git clone this repository and enter to the repository directory:
