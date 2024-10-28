@@ -1,7 +1,7 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/rust:latest",
   "features": {
-      "ghcr.io/devcontainers/features/rust:1": {}
+      "ghcr.io/devcontainers/features/node:1": {}
   },
   "customizations": {
     "vscode": {
