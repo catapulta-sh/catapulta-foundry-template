@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+  "customizations": {
+    "vscode": {
+        "extensions": ["JuanBlanco.solidity"],
+        "settings": {
+          "solidity.formatter": "forge"
+        }
+    }
+  },
+  "postCreateCommand": "curl -L https://foundry.paradigm.xyz | bash"
+}
