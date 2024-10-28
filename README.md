@@ -12,7 +12,7 @@ Requirements
 ## Getting Started - Dev Container
 Install this Foundry template as a Dev Container in your VSCode or Cursor IDE with 1-click:
 
-[![Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open%20in%20VSCode&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java)
+[![Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open%20in%20VSCode&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/catapulta-sh/catapulta-foundry-template)
 
 
 ## Getting Started - Git
