@@ -11,5 +11,5 @@
         }
     }
   },
-  "postCreateCommand": "curl -L https://foundry.paradigm.xyz | bash"
+  "postCreateCommand": "curl -L https://foundry.paradigm.xyz | bash && npm i -g catapulta"
 }
