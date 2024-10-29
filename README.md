@@ -8,7 +8,7 @@ Template repository for getting started quickly with [Catapulta.sh](https://cata
 ## Getting Started - Dev Container
 Install this Catapulta Foundry template as a Dev Container in your Cursor or VSCode IDE with 1-click:
 
-[![Dev Container - Cursor](https://img.shields.io/static/v1?label=Dev%20Container&message=Open%20in%20Cursor&color=black&style=for-the-badge)](https://tinyurl.com/25msv9bd)       [![Dev Container - Vscode](https://img.shields.io/static/v1?label=Dev%20Container&message=Open%20in%20VSCode&color=blue&logo=visualstudiocode&style=for-the-badge)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/catapulta-sh/catapulta-foundry-template)
+[![Dev Container - Cursor](https://img.shields.io/static/v1?label=Dev%20Container&logo=docker&message=Open%20in%20Cursor&color=black&style=for-the-badge)](https://tinyurl.com/25msv9bd)       [![Dev Container - Vscode](https://img.shields.io/static/v1?label=Dev%20Container&message=Open%20in%20VSCode&color=blue&logo=docker&style=for-the-badge)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/catapulta-sh/catapulta-foundry-template)
 
 Once your IDE loads the Dev Container, proceed to [Deploy your first contract with Catapulta](#deploy-your-first-contract-with-catapulta) section.
 
