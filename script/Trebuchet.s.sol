@@ -10,7 +10,7 @@ contract DeployTrebuchet is Script {
 
         vm.startBroadcast(deployerPrivateKey);
 
-        new Trebuchet(200);
+        new Trebuchet(200, msg.sender);
 
         vm.stopBroadcast();
     }

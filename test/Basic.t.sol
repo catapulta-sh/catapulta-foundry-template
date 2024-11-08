@@ -9,10 +9,10 @@ contract TestTrebuchet is Test {
     Trebuchet c;
 
     function setUp() public {
-        c = new Trebuchet(1);
+        c = new Trebuchet(1, address(this));
     }
 
-    function testData() public {
+    function testGetDamage() public {
         assertEq(c.getAttackDamage(), 1);
     }
 }

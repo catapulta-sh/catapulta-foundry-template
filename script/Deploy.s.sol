@@ -14,7 +14,7 @@ contract DeploySiege is Script {
 
         new BatteringRam(50);
         new Catapult(100);
-        new Trebuchet(200);
+        new Trebuchet(200, msg.sender);
 
         vm.stopBroadcast();
     }
