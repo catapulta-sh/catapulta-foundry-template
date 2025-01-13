@@ -1,7 +1,13 @@
 [profile.default]
-solc_version = "0.8.19"
+solc_version = "0.8.20"
 optimizer = true
 optimizer_runs = 20_000
 
 [profile.ci.fuzz]
 runs = 10_000
+
+remappings = [
+    "@openzeppelin/=lib/openzeppelin-contracts/",
+    "ds-test/=lib/forge-std/lib/ds-test/src/",
+    "forge-std/=lib/forge-std/src/",
+]
