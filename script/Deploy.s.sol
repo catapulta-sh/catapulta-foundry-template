@@ -12,6 +12,7 @@ contract DeploySiege is Script {
 
         vm.startBroadcast(deployerPrivateKey);
 
+        new CatapultNFT("https://ipfs.io/ipfs/QmUCd8sGk4uVhGFfXX5aixNod3Eky8kD4Cvjo25UDnhPrQ")
         new BatteringRam(50);
         new Catapult(100);
         new Trebuchet(200, msg.sender);
