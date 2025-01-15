@@ -4,8 +4,9 @@ pragma solidity ^0.8.20;
 import {ERC721} from "../../lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
 import {ERC721Enumerable} from "../../lib/openzeppelin-contracts/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import {Ownable} from "../../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
-import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";
+import {Strings} from "../../lib/openzeppelin-contracts/contracts/utils/Strings.sol";
 
+/// @notice EXAMPLE, DO NOT USE THIS CONTRACT IN PRODUCTION
 contract MyNFT is ERC721, ERC721Enumerable, Ownable {
     using Strings for uint256;
 
@@ -13,11 +14,10 @@ contract MyNFT is ERC721, ERC721Enumerable, Ownable {
     uint256 public mintPrice = 0.01 ether;
     string public baseTokenURI;
 
-    constructor(
-        string memory name,
-        string memory symbol,
-        string memory initialBaseURI
-    ) ERC721(name, symbol) Ownable(msg.sender) {
+    constructor(string memory name, string memory symbol, string memory initialBaseURI)
+        ERC721(name, symbol)
+        Ownable(msg.sender)
+    {
         baseTokenURI = initialBaseURI;
     }
 
@@ -45,24 +45,19 @@ contract MyNFT is ERC721, ERC721Enumerable, Ownable {
     }
 
     // Override required functions
-    function _update(
-        address to,
-        uint256 tokenId,
-        address auth
-    ) internal override(ERC721, ERC721Enumerable) returns (address) {
+    function _update(address to, uint256 tokenId, address auth)
+        internal
+        override(ERC721, ERC721Enumerable)
+        returns (address)
+    {
         return super._update(to, tokenId, auth);
     }
 
-    function _increaseBalance(
-        address account,
-        uint128 value
-    ) internal override(ERC721, ERC721Enumerable) {
+    function _increaseBalance(address account, uint128 value) internal override(ERC721, ERC721Enumerable) {
         super._increaseBalance(account, value);
     }
 
-    function supportsInterface(
-        bytes4 interfaceId
-    ) public view override(ERC721, ERC721Enumerable) returns (bool) {
+    function supportsInterface(bytes4 interfaceId) public view override(ERC721, ERC721Enumerable) returns (bool) {
         return super.supportsInterface(interfaceId);
     }
 }

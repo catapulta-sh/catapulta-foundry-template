@@ -5,6 +5,7 @@ import {Script} from "forge-std/Script.sol";
 import {BatteringRam} from "../src/BatteringRam.sol";
 import {Catapult} from "../src/Catapult.sol";
 import {Trebuchet} from "../src/Trebuchet.sol";
+import {CatapultNFT} from "../src/CatapultNFT.sol";
 
 contract DeploySiege is Script {
     function run() public {

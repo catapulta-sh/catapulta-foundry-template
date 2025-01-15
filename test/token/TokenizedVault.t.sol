@@ -31,12 +31,7 @@ contract TokenizedVaultTest is Test {
         asset = new MockERC20();
 
         // Deploy vault
-        vault = new TokenizedVault(
-            IERC20(address(asset)),
-            "Vault Token",
-            "vTKN",
-            INITIAL_FEE
-        );
+        vault = new TokenizedVault(IERC20(address(asset)), "Vault Token", "vTKN", INITIAL_FEE);
 
         // Transfer initial tokens to users
         asset.transfer(user1, INITIAL_DEPOSIT);
@@ -70,7 +65,7 @@ contract TokenizedVaultTest is Test {
         uint256 shares = vault.deposit(depositAmount, user1);
 
         uint256 expectedAssets = vault.previewRedeem(shares);
-        uint256 withdrawnAssets = vault.withdraw(expectedAssets, user1, user1);
+        uint256 withdrawnAssets = vault.redeem(shares, user1, user1);
 
         assertEq(withdrawnAssets, expectedAssets);
         assertEq(vault.balanceOf(user1), 0);
@@ -97,9 +92,10 @@ contract TokenizedVaultTest is Test {
         assertEq(vault.managementFee(), newFee);
     }
 
-    function testFailSetManagementFeeTooHigh() public {
+    function testSetManagementFeeTooHigh() public {
         uint256 tooHighFee = 1100; // 11%
-        vm.expectRevert("Fee too high");
+
+        vm.expectRevert(TokenizedVault.FeeTooHigh.selector);
         vault.setManagementFee(tooHighFee);
     }
 }
