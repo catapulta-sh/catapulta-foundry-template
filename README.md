@@ -8,7 +8,7 @@ Template repository for getting started quickly with [Catapulta.sh](https://cata
 ## Getting Started - Dev Container
 Get onboarded faster using Docker with a developer environment ready to build and deploy Solidity smart contracts:
 - Click here to open a Solidity environment in Cursor:
-  - [![Dev Container - Cursor](https://img.shields.io/static/v1?label=Dev%20Container&logo=docker&message=Open%20in%20Cursor&color=black&style=for-the-badge)](https://tinyurl.com/2d96r6fd)  
+  - [![Dev Container - Cursor](https://img.shields.io/static/v1?label=Dev%20Container&logo=docker&message=Open%20in%20Cursor&color=black&style=for-the-badge)](https://tinyurl.com/25msv9bd)  
 
 
 - Click here to open a Solidity environment in VSCode:
