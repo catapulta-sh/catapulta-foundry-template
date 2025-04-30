@@ -2,14 +2,14 @@
 pragma solidity ^0.8.20;
 
 import {Script} from "forge-std/Script.sol";
-import {Trebuchet} from "../src/Trebuchet.sol";
+import {ERC20Token} from "../src/tokens/ERC20Token.sol";
 
-contract DeployTrebuchet is Script {
+contract DeployERC20 is Script {
     function run() public {
         vm.startBroadcast();
 
-        new Trebuchet(200, msg.sender);
-
+        new ERC20Token(1_000_000e18);
+        
         vm.stopBroadcast();
     }
 }

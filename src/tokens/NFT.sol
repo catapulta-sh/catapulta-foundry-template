@@ -7,7 +7,7 @@ import {Ownable} from "../../lib/openzeppelin-contracts/contracts/access/Ownable
 import {Strings} from "../../lib/openzeppelin-contracts/contracts/utils/Strings.sol";
 
 /// @notice EXAMPLE, DO NOT USE THIS CONTRACT IN PRODUCTION
-contract MyNFT is ERC721, ERC721Enumerable, Ownable {
+contract NFT is ERC721, ERC721Enumerable, Ownable {
     using Strings for uint256;
 
     uint256 private _nextTokenId;
